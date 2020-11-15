@@ -1,8 +1,6 @@
-server:
-  port: 8084
 spring:
   application:
-    name: attender-service
+    name: yoke-event
 
   jpa:
     database: POSTGRESQL
@@ -17,6 +15,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: host
+
+server:
+  port: 8083
 
 yoke:
   notify:
