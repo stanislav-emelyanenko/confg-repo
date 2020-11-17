@@ -16,7 +16,7 @@ spring:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: {cipher}704e3437420c7bba03878ff132653ecdb5f788c9cf9bd5990d1dc1ca5434576d
+    password: host
 
 yoke:
   notify:
